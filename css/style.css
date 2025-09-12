@@ -306,6 +306,7 @@ input[type="email"] {
     width: 1599px;
     filter: blur(20px);
     opacity: 20%;
+    z-index: -1;
 }
 
 .improved-box {
