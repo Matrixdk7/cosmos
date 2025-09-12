@@ -366,6 +366,11 @@ input[type="email"] {
     box-shadow: -8px 8px 32px rgba(242, 58, 41, 0.25);
     padding: 64px 71px;
     background-color: #08060B;
+    transition: all .3s linear;
+}
+
+.price-card:hover {
+    transform: scale(1.2);
 }
 
 .price-card h3 {
@@ -411,4 +416,16 @@ input[type="email"] {
 
 .footer-box a {
     display: block;
+    color: rgba(242, 242, 242, 1);
+    width: 32px;
+    height: 32px;
+}
+
+.footer-box a:hover {
+    color: rgba(242, 100, 48, 1);
+}
+
+.footer-box svg {
+    width: 32px;
+    height: 32px;
 }
