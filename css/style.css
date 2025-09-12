@@ -173,9 +173,34 @@ input[type="email"] {
 
 /* ABOUT */
 .about-us {
-    min-height: 100vh;
     display: flex;
     align-items: center;
+    position: relative;
+    padding: 50px 0;
+}
+
+.about-us::after {
+    content: '';
+    background: radial-gradient(circle at 100% 50%, rgba(242, 100, 48, 1), transparent 50%);
+    position: absolute;
+    top: 450px;
+    right: 0;
+    height: 917px;
+    width: 917px;
+    filter: blur(20px);
+    opacity: 50%;
+}
+
+.about-us::before {
+    content: '';
+    background: radial-gradient(circle at 50% 50%, rgba(242, 100, 48, 1), transparent 80%);
+    position: absolute;
+    top: -700px;
+    left: -670px;
+    height: 1599px;
+    width: 1599px;
+    filter: blur(20px);
+    opacity: 20%;
 }
 
 .about-box {
@@ -213,7 +238,7 @@ input[type="email"] {
 /* ADVANCED */
 
 .advanced {
-    min-height: 100vh;
+    padding: 50px 0;
 }
 
 .advanced-box {
@@ -252,7 +277,32 @@ input[type="email"] {
 
 /* IMPROVED */
 .improved {
-    min-height: 100vh;
+    padding: 50px 0;
+    position: relative;
+}
+
+.improved::after {
+    content: '';
+    background: radial-gradient(circle at 100% 50%, rgba(242, 100, 48, 1), transparent 55%);
+    position: absolute;
+    top: 260px;
+    right: 0;
+    height: 917px;
+    width: 917px;
+    filter: blur(20px);
+    opacity: 50%;
+}
+
+.improved::before {
+    content: '';
+    background: radial-gradient(circle at 50% 50%, rgba(242, 100, 48, 1), transparent 80%);
+    position: absolute;
+    top: -700px;
+    left: -670px;
+    height: 1599px;
+    width: 1599px;
+    filter: blur(20px);
+    opacity: 20%;
 }
 
 .improved-box {
@@ -292,8 +342,22 @@ input[type="email"] {
 
 /* PRICE */
 .price {
-    min-height: 100vh;
+    padding: 50px 0;
+    position: relative;
 }
+
+/* .price::before {
+    content: '';
+    background: radial-gradient(circle at 50% 50%, rgba(242, 100, 48, 1), transparent 80%);
+    position: absolute;
+    top: 0;
+    left: -300px;
+    height: 1599px;
+    width: 1599px;
+    filter: blur(20px);
+    opacity: 20%;
+    overflow: hidden;
+} */
 
 .price-box {
     display: flex;
