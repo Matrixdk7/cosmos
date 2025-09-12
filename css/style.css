@@ -364,6 +364,7 @@ input[type="email"] {
     border-radius: 32px;
     box-shadow: -8px 8px 32px rgba(242, 58, 41, 0.25);
     padding: 64px 71px;
+    background-color: #08060B;
 }
 
 .price-card h3 {
