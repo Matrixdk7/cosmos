@@ -190,6 +190,7 @@ input[type="email"] {
     width: 917px;
     filter: blur(20px);
     opacity: 50%;
+    z-index: -1;
 }
 
 .about-us::before {
@@ -292,6 +293,7 @@ input[type="email"] {
     width: 917px;
     filter: blur(20px);
     opacity: 50%;
+    z-index: -1;
 }
 
 .improved::before {
@@ -346,19 +348,6 @@ input[type="email"] {
     padding: 50px 0;
     position: relative;
 }
-
-/* .price::before {
-    content: '';
-    background: radial-gradient(circle at 50% 50%, rgba(242, 100, 48, 1), transparent 80%);
-    position: absolute;
-    top: 0;
-    left: -300px;
-    height: 1599px;
-    width: 1599px;
-    filter: blur(20px);
-    opacity: 20%;
-    overflow: hidden;
-} */
 
 .price-box {
     display: flex;
