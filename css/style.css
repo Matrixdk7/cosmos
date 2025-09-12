@@ -95,6 +95,10 @@ body {
     color: #fff;
 }
 
+.header-menu a:hover {
+    color: rgba(242, 100, 48, 1);
+}
+
 /* HERO */
 
 .hero {
